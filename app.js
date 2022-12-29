@@ -1,12 +1,16 @@
 const express = require("express")
+const cookieParser = require("cookie-parser")
 
 const app = express()
+app.use(cookieParser())
 
 app.get("/", (req, res) => {
   res.send("Hello World~~!")
 })
 
 app.get("/users", (req,res) => {
+  console.log(req.cookies.test1)
+  console.log(req.cookies.test2)
   res.send("회원정보 페이지")
 })
 

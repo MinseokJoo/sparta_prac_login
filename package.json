@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/MinseokJoo/sparta_prac_login#readme",
   "dependencies": {
+    "cookie-parser": "^1.4.6",
     "express": "^4.18.2"
   }
 }
