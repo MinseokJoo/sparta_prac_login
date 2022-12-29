@@ -2,7 +2,7 @@ const express = require("express")
 const cookieParser = require("cookie-parser")
 
 const app = express()
-app.use(cookieParser())
+app.use(express.json(), cookieParser())
 
 const users = [
   {name: "우준호", id: "noggong", password: "1234"},
