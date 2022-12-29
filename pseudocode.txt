@@ -1,5 +1,13 @@
 쿠키 - 수도코드
 
+const users = [
+  {name: "우준호", id: "noggong", password: "1234"},
+  {name: "이설인", id: "seolin", password: "asdf"},
+  {name: "주민석", id: "minseok", password: "hello"},
+  {name: "유희선", id: "heesun", password: "94kf"},
+  {name: "한동주", id: "dongjoo", password: "vded"},
+]
+
 1차-------------------
 
 로그인
@@ -40,3 +48,6 @@
 로그인 확인
 예외
 정보값
+
+3차-------------------
+없이 해봤다.
