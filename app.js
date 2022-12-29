@@ -16,6 +16,7 @@ app.get("/", (req, res) => {
   res.send("Hello World~~!")
 })
 
+//유저 정보
 app.get("/users", (req,res) => {
   const YseLogin = req.cookies.user_id
 
@@ -28,6 +29,7 @@ app.get("/users", (req,res) => {
   res.send(user)
 })
 
+// 로그인
 app.get("/login", (req,res) => {
   const id = req.query.id
   const password = req.query.password
@@ -49,11 +51,13 @@ app.get("/login", (req,res) => {
   res.send("로그인")
 })
 
+//로그아웃
 app.get("/logout", (req,res) => {
   res.clearCookie("user_id")
   res.send("로그아웃")
 })
 
+//회원가입
 app.get("/register", (req,res) => {
   const id = req.query.id
   const password = req.query.password
