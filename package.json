@@ -1,0 +1,24 @@
+{
+  "name": "sparta_prac_login",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MinseokJoo/sparta_prac_login.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MinseokJoo/sparta_prac_login/issues"
+  },
+  "homepage": "https://github.com/MinseokJoo/sparta_prac_login#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
